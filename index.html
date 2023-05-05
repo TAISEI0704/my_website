@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kalam&family=Kiwi+Maru&family=Poltawski+Nowy:ital,wght@1,600&family=Raleway:ital,wght@1,300&family=Shippori+Mincho:wght@700&display=swap" rel="stylesheet">
+    <!-- reset css & 自作のcss -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
+</head>
+<body>
+    <header id="header">
+        <div class="header_left">
+            <a href="./index.html"><img class="logo" src="./assets/img/logo4-high.jpg" alt=""></a>
+        </div>
+        <div class="header_right">
+            <ul class="menu">
+                <li>
+                    <a href="./index.html">トップ</a>
+                </li>
+                <li>
+                    <a href="./gourmet.html">グルメ</a>
+                </li>
+                <li>
+                    <a href="./spot.html">スポット</a>
+                </li>
+                <li>
+                    <a href="./event.html">イベント</a>
+                </li>
+                <li>
+                    <a href="./facility.html">施設</a>
+                </li>
+                <li>
+                    <a href="">アクセス</a>
+                </li>
+            </ul>
+        </div> 
+        <div id="btn-menu" class="header_hamberger">
+            <p class="hamburger">
+                <span></span>
+            </p>
+            <nav id="g-nav">
+                <ul>
+                    <li><a href="./index.html">トップ</a></li>
+                    <li><a href="./gourmet.html">グルメ</a></li>  
+                    <li><a href="./spot.html">スポット</a></li>  
+                    <li><a href="./event.html">イベント</a></li>  
+                    <li><a href="./facility.html">施設</a></li> 
+                    <li><a href="#">アクセス</a></li> 
+                </ul>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <h1>MIYAZAKI</h1>
+            <h2>宮崎の自然に包まれて <br> 心豊かな旅へ。</h2>
+        </section>
+        <section class="">
+            <div class="recommend">
+                <h3>FOOD</h3>
+                <span>ご当地グルメ</span>
+                <div class="slider">
+                    <div><img src="./assets/img/food_gyuu1.jpg"></div>
+                    <div><img src="./assets/img/food_jidori1.jpg"></div>
+                    <div><img src="./assets/img/food_chikin.jpg"></div>
+                    <div><img src="./assets/img/food_yamame.jpg"></div>
+                    <div><img src="./assets/img/food_hyuganatsu.jpg"></div>
+                    <div><img src="./assets/img/food_shochu5.jpg"></div>
+                </div>
+                <button type="button" onclick="location.href='./gourmet.html'">グルメ一覧へ</button>
+            </div>
+
+            <div class="recommend">
+                <h3>SPOT</h3>
+                <span>スポット</span>
+                <div class="slider">
+                    <div><img src="./assets/img/spot_aoshima.jpg"></div>
+                    <div><img src="./assets/img/spot_udojingu_01.jpg"></div>
+                    <div><img src="./assets/img/spot_nagatakyou_02.jpg"></div>
+                    <div><img src="./assets/img/spot_takatsiho.jpg"></div>
+                    <div><img src="./assets/img/spot_gokasesirataki2.jpg"></div>
+                    <div><img src="./assets/img/spot_toimisaki_01.jpg"></div>
+                </div>
+                <button type="button" onclick="location.href='./spot.html'">スポット一覧へ</button>
+            </div>
+
+            <div class="recommend">
+                <h3>EVENT</h3>
+                <span>イベント</span>
+                <div class="slider">
+                    <div><img src="./assets/img/sports_facilities1.jpg"></div>
+                    <div><img src="./assets/img/sports_facilities2.jpg"></div>
+                    <div><img src="./assets/img/spot_furorante.jpg"></div>
+                    <div><img src="./assets/img/spot_hanabi.jpg"></div>
+                    <div><img src="./assets/img/spot_skeate.jpg"></div>
+                    <div><img src="./assets/img/event_hyottoko.jpg"></div>
+                </div>
+                <button type="button" onclick="location.href='./event.html'">イベント一覧へ</button>
+            </div>
+            
+            <div class="recommend">
+                <h3>FACILITY</h3>
+                <span>施設</span>
+                <div class="slider">
+                    <div><img src="./assets/img/spot_seagaia_04.jpg"></div>
+                    <div><img src="./assets/img/spot_seagaia_06.jpg"></div>
+                    <div><img src="./assets/img/spot_seagaia_07.jpg"></div>
+                    <div><img src="./assets/img/spot_ebinotakamatsucamp_01.jpg"></div>
+                    <div><img src="./assets/img/spot_tsuno.jpg"></div>
+                    <div><img src="./assets/img/spot_kitago.jpg"></div>
+                </div>
+                <button type="button" onclick="location.href='./facility.html'">施設一覧へ</button>
+            </div>
+
+        </section>
+
+        <!-- <section class=""></section> -->
+        <!-- <section class=""></section> -->
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <div class="footer">
+            <div class="footer_menu">
+                <div class="footer_container">
+                    <a href="#header">トップ</a>
+                </div>
+                <div class="footer_container">
+                    <a href="./gourmet.html">グルメ</a>
+                    <a href="./spot.html">スポット</a>
+                    <a href="./event.html">イベント</a>
+                </div>
+                <div class="footer_container">
+                    <a href="./facility.html">施設</a>
+                    <a href="">アクセス</a>
+                </div>
+            </div>
+            <div class="footer_sns">
+                <p>公式SNS</p>
+                <div class="footer_icon">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <small>&copy; Miyazaki kankou .inc</small>
+        </div>
+
+    </footer>
+
+    <!-- jQuery & ajax & slick & 自作のjs -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
